@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Listado de modelos 3d para mostrar en FountainOfWishes</title>
+	<link rel="stylesheet" href="">
+	<style>
+		*{
+    		box-sizing: border-box;
+		}
+		html{
+			overflow-y: scroll;
+		}
+		body{
+			display: block;
+			max-width: 1024px;
+			margin: 0px auto;
+			font-family: sans-serif;
+			background-color: white;
+		}
+		.modelo{
+			border-radius: 10px;
+			border:1px solid rosybrown;
+			margin-top: 10px;
+			padding: 20px;
+			
+		}
+		.modelos{
+			width: 300px;
+			margin: 0 375px;
+		}
+		.modelo model-viewer{
+			height: 300px;
+			width: auto;
+		}
+		.modelo label{
+			display: block;
+			text-align: center;
+			font-size: 1.6em;
+		}
+	</style>
+	<script type="module">
+		const container = document.querySelector(".modelos")
+		async function loadJSON(url) {
+			const res = await fetch(url);
+			return await res.json();
+		}
+		loadJSON('./json/modelo_3d.json').then(data => {
+			var cargarModelo = ""
+			for (let i in data) {
+				cargarModelo += `<div class="modelo" id="M${data[i].id}">
+									<label>${data[i].titulo}</label>
+									<model-viewer src="./modelo/${data[i].modelo}" 
+									ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz" 
+									alt="${data[i].titulo}" 
+									ar 
+									auto-rotate 
+									camera-controls></model-viewer>
+									<p>${data[i].descripcion}</p>
+								</div>
+								`
+        	}
+			container.innerHTML = cargarModelo
+		});
+	</script>
+ 
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js" async></script>
+
+	
+</head>
+<body>
+	<div class="modelos"></div>
+<!-- ejemplo model-viewer de Google
+	<model-viewer src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+	              ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
+	              alt="A 3D model of an astronaut"
+	              ar
+	              auto-rotate
+	              camera-controls></model-viewer>
+-->	
+</body>
+</html>
