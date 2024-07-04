@@ -13,5 +13,5 @@ Los modelos que cargan son:
 - .glb
 
 Aquí puedes ver los elementos 3D que utlizaremos:
-[Enlace a modelos 3D](https://juancmacias.github.io/FountainOfWishes_json/modelos-3d.html)
-[Enlace al elemento .json](https://juancmacias.github.io/FountainOfWishes_json/json/modelo_3d.json)
+- [Enlace a listado de  modelos 3D](https://juancmacias.github.io/FountainOfWishes_json/modelos-3d.html)
+- [Enlace al elemento .json](https://juancmacias.github.io/FountainOfWishes_json/json/modelo_3d.json)
