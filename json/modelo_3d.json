@@ -1,38 +1,17 @@
 [
-  {
-    "fuentes": {
-      "fuente1": {
-        "id": 1,
-        "titulo": "Pozo del deseo",
-        "descripcion": "El agua se consideró que contenía energías curativas y por lo tanto los pozos llegaron a ser populares entre mucha gente que bebía, se bañaba o simplemente expresaba deseos sobre ella. La gente cree que los guardas o los habitantes del pozo le concederían su deseo si pagaban un precio. Generalmente, después de pronunciar el deseo, uno debía arrojar monedas al pozo. El deseo entonces sería concedido por el guarda o el habitante, basado en cómo la moneda aterrizaría en el fondo del pozo. Si la moneda aterrizaba cara arriba el deseo sería concedido. Si la moneda aterrizaba cruz arriba el deseo no sería concedido. La tradición de lanzar pequeñas monedas a charcas y fuentes proviene de esto. Las monedas serían colocadas allí como regalos para la deidad en forma de agradecimiento.",
-        "imagen": "img/pozo.png",
-        "modelo": "pozo.glb"
-      },
-      "fuente2": {
-        "id": 2,
-        "titulo": "Fuente de los deseos",
-        "descripcion": "Las personas continuamente las arrojaban y con cada una de ellas un deseo, una ilusión.",
-        "imagen": "img/fuente.png",
-        "modelo": "fuente.glb"
-      }
+    {
+      "id": 1,
+      "titulo": "Pozo del deseo",
+      "descripcion": "El agua se consideró que contenía energías curativas y por lo tanto los pozos llegaron a ser populares entre mucha gente que bebía, se bañaba o simplemente expresaba deseos sobre ella. La gente cree que los guardas o los habitantes del pozo le concederían su deseo si pagaban un precio. Generalmente, después de pronunciar el deseo, uno debía arrojar monedas al pozo. El deseo entonces sería concedido por el guarda o el habitante, basado en cómo la moneda aterrizaría en el fondo del pozo. Si la moneda aterrizaba cara arriba el deseo sería concedido. Si la moneda aterrizaba cruz arriba el deseo no sería concedido. La tradición de lanzar pequeñas monedas a charcas y fuentes proviene de esto. Las monedas serían colocadas allí como regalos para la deidad en forma de agradecimiento.",
+      "imagen": "img/pozo.png",
+      "modelo": "pozo.glb"
     },
-    "ongs": {
-      "ong1": {
-        "id": 1,
-        "titulo": "Factoria F5",
-        "descripcion": "F5 coders",
-        "imagen": "img/f5.jpg",
-        "valoracion": 5
-       
-      },
-      "ong2": {
-        "id": 2,
-        "titulo": "Medicos sin fronteras",
-        "descripcion": "medicos sin fronteras",
-        "imagen": "img/medicos.png",
-        "valoracion": 4 
-      }
+    {
+      "id": 2,
+      "titulo": "Fuente de los deseos",
+      "descripcion": "Las personas continuamente las arrojaban y con cada una de ellas un deseo, una ilusión.",
+      "imagen": "img/fuente.png",
+      "modelo": "fuente.glb"
     }
-
-  }
-]
+  ]
+  
