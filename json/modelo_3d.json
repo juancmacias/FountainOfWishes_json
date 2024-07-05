@@ -22,14 +22,15 @@
         "titulo": "Factoria F5",
         "descripcion": "F5 coders",
         "imagen": "img/f5.jpg",
-        "modelo": ""
+        "valoracion": 5
+       
       },
       "ong2": {
         "id": 2,
         "titulo": "Medicos sin fronteras",
         "descripcion": "medicos sin fronteras",
         "imagen": "img/medicos.png",
-        "modelo": ""
+        "valoracion": 4 
       }
     }
 
