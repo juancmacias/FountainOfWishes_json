@@ -2,14 +2,14 @@
     {
       "id": 1,
       "titulo": "Medicos sin fronteras",
-      "descripcion": "Medicos.",
+      "descripcion": "Medicos sin fronteras es una organizacion.",
       "imagen": "img/medicos.png",
       "valoracion": 5
     },
     {
       "id": 2,
       "titulo": "Fuente de los deseos",
-      "descripcion": "F5.",
+      "descripcion": "F5 es una organizacion qu4e tal y cula.",
       "imagen": "img/f5.jpg",
       "valoracion": 4
     }
