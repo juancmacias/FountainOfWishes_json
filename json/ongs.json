@@ -2,15 +2,15 @@
     {
       "id": 1,
       "titulo": "Medicos sin fronteras",
-      "descripcion": "Medicos sin fronteras es una organizacion.",
-      "imagen": "img/medicos.png",
+      "descripcion": "Medicos sin fronteras es una organizacion que tal y cuald.",
+      "imagen": "img/MSF.webp",
       "valoracion": 5
     },
     {
       "id": 2,
-      "titulo": "Fuente de los deseos",
-      "descripcion": "F5 es una organizacion qu4e tal y cula.",
-      "imagen": "img/f5.jpg",
+      "titulo": "Save the childre",
+      "descripcion": "Save the children es una organizacion qu4e tal y cula.",
+      "imagen": "img/stc.jpg",
       "valoracion": 4
     }
   ]
