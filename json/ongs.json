@@ -5,7 +5,7 @@
     "descripcion": "Prefiero no aportar al ninguna ONG",
     "imagen": "img/stc.jpg",
     "valoracion": 1
-  }
+  },
     {
       "id": 1,
       "titulo": "Medicos sin fronteras",
@@ -19,7 +19,7 @@
       "descripcion": "Save the children es una organizacion qu4e tal y cula.",
       "imagen": "img/stc.jpg",
       "valoracion": 4
-    }
+    },
     {
       "id": 3,
       "titulo": "ONG ADDA",
