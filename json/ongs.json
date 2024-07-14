@@ -1,4 +1,11 @@
 [
+  {
+    "id": 0,
+    "titulo": "No quiero colaborar",
+    "descripcion": "Prefiero no aportar al ninguna ONG",
+    "imagen": "img/stc.jpg",
+    "valoracion": 1
+  }
     {
       "id": 1,
       "titulo": "Medicos sin fronteras",
@@ -11,6 +18,13 @@
       "titulo": "Save the childre",
       "descripcion": "Save the children es una organizacion qu4e tal y cula.",
       "imagen": "img/stc.jpg",
+      "valoracion": 4
+    }
+    {
+      "id": 3,
+      "titulo": "ONG ADDA",
+      "descripcion": "Fundada en 1976, la Asociación Defensa Derechos Animal, fue la primera ONG española dedicada a la defensa y al bienestar de los animales en general.",
+      "imagen": "img/adda.png",
       "valoracion": 4
     }
   ]
