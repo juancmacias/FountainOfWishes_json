@@ -15,8 +15,11 @@ Los modelos que cargan son:
 Aquí puedes ver los elementos 3D que utlizaremos:
 - [Enlace a listado de  modelos 3D](https://juancmacias.github.io/FountainOfWishes_json/modelos-3d.html)
 - [Enlace al elemento .json](https://juancmacias.github.io/FountainOfWishes_json/json/modelo_3d.json)
+
 Aquí puede ver los elemento de ONG que utilizaremos:
 - [Enlace al .json](https://juancmacias.github.io/FountainOfWishes_json/json/ongs.jscon) 
+
 Esto se va integrar en un proyecto de Android:
 - [Aquí dejo el enlace al repositorio de Android](https://github.com/JUANAN2019/Fountain-Of-Wishes)
+
 Para poder correr esta aplicación debeis compilar desde Android Studio.
