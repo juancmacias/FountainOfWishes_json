@@ -11,6 +11,7 @@ Desde aquí usaremos como servidor externo a FontainOfWishes los modelos necesar
 Para probar los elemenots 3D usaré una herramienta de Google, modelviewer:
 - [Enlace al recurso](https://modelviewer.dev/editor/)
 Aquí se puede previsualizar el modelo 3D y nos da los paramentros para mostrar en html, <model-viewer>, con todos los paramentros. Tambien dispone de ayuda para mejorar la visualización del dos distintos elemento previsualizados.
+creador de modelos 3D https://imagetostl.com/es/texto-a-stl#convert
 Los modelos que cargan son:
 - .glb
 
